@@ -1,0 +1,52 @@
+{"intents": [
+	{"tag": "greeting",
+	 "patterns": ["Hi", "Hello", "Good day", "Good morning", "Good Afternoon", "Good Evening", "Hey","Excuse me"],
+	 "responses": ["Hello, thanks for visiting", "Good to see you, How may I assist you?", "Hi there how can I help?","Welcome to Denton University, How can I help?"],
+	 "context_set": ""
+	},
+	{"tag": "goodbye",
+	 "patterns": ["Bye", "See you later", "Goodbye"],
+	 "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+	},
+	{"tag": "thanks",
+	 "patterns": ["Thanks", "Thank you", "That's helpful"],
+	 "responses": ["Happy to help!", "Any time!", "My pleasure"]
+	},
+	{"tag": "hours",
+	 "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", "What are the office hours?"],
+	 "responses": ["We're open 9am-6pm on weekdays", "Our hours are 9am-9pm on weekdays"]
+	},
+	{"tag": "Fees",
+	 "patterns": ["Where can I check my outstanding fees balance?", "What is my fees balance?", "When is my tution fee due?"],
+	 "responses": ["You can find it under the student account session in the my university portal, or you can directly visit the student admin office open 9am-6pm on weekdays"]
+	},
+	{"tag": "payments",
+	 "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+	 "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+	},
+	{"tag": "Facilities",
+	 "patterns": ["Is the university GYM open?", "How can I access the university gym?"],
+	 "responses": ["It is closed due to COVID until further notice"]
+	},
+	{"tag": "Advisor",
+	 "patterns": ["Who is my student advisor", "How can I book an appointment with my student advisor?"],
+	 "responses": ["You can find the details in the department's website under my student advisor column"]
+	},
+	{"tag": "Grades",
+	 "patterns": ["Where can I find my final grades?", "What is my overall percentage?", "What was my GPA in the previous semester?"],
+	 "responses": ["You can find your grades in the my university portal under academic records"]
+	},
+	{"tag": "Lab-Access",
+	 "patterns": ["Can I access the AI lab?", "How can I get access to the AI lab?", "Are the labs at the Computer science department open?"],
+	 "responses": ["The number of people who can access labs is restricted due to covid. You will need an access letter from your supervisor to access the labs"]
+	},
+	{"tag": "Scholarship",
+	 "patterns": ["How can I apply for scholarship?", "Am I eligible to apply for scholarship?"],
+	 "responses": ["You will need to fill the general scholarship form to be considered for a scholarship. The eligibility criteria can be found in the university scholarship page"]
+	},
+	{"tag": "Documents",
+	 "patterns": ["How to apply for official transcript?", "Where can I apply for my consolidate marksheet?", "Who should I contact to get my course completion letter?"],
+	 "responses": ["You can contact the administrative office to book an appointment and get the documents from them. Make sure you have your student ID for verification purpose"]
+	}
+   ]
+}
